@@ -15,6 +15,7 @@ m <- NULL
   list(set = set, get = get,
        setInverse = setInverse,
        getInverse = getInverse)
+   ##this function stores a matrix to input into cacheSolver
 }
 
 
@@ -31,4 +32,5 @@ cacheSolve <- function(x, ...) {
   x$setmean(m)
   m
         ## Return a matrix that is the inverse of 'x'
+  ##this function calculates the inverse of the matrix created with makeCacheMatrix
 }
